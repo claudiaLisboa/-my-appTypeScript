@@ -18,6 +18,14 @@
   z-index: 1;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .heading{
+      margin: 15px 0;
+      font-size: 35px;
+  }
+  
+}
 /* Sky Palettes
 
 HEX: #bccad6
