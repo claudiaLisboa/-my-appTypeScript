@@ -1,3 +1,14 @@
+/* Sky Palettes
+HEX: #bccad6
+
+HEX: #8d9db6
+
+HEX: #667292
+
+HEX: #f1e3dd */
+
+
+
 .input{
     display: flex;
     width: 90%;
@@ -43,4 +54,31 @@
 .input__submit:active{
    transform: scale(0.8);
    box-shadow: 0 0 5px black;
+}
+
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.todos__single{
+    display: flex;
+    width: 29.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #f1e3dd;
+}
+
+.todos__single--text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.todos__single--text:focus{
+   
 }
