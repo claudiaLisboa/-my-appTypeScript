@@ -1,5 +1,5 @@
 //rafce  - ES7 React/Redux/GraphQl/React-Native (extension)
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Todo } from '../model';
 import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 import {  MdDone } from 'react-icons/md';
@@ -37,12 +37,18 @@ type Props ={
         setEdit(false);   
     };
 
+    const inputRef = useRef<HTMLInputElement>(null);
+
+    useEffect(() =>{
+        inputRef.current?.focus();
+    }, [edit]);
 
   return (
     <form className='todos__single' onSubmit={(e)=> handleEdit(e, todo.id)}>
 
         {edit?(
             <input 
+                ref = {inputRef}
                 value={editTodo}
                 onChange={(e) =>seteditTodo(e.target.value)}  
                 className='todos__single--text'
