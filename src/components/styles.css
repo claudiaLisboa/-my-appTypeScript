@@ -11,7 +11,7 @@ HEX: #f1e3dd */
 
 .input{
     display: flex;
-    width: 90%;
+    width: 95%;
     position: relative;
     align-items: center;
 }
@@ -56,11 +56,29 @@ HEX: #f1e3dd */
    box-shadow: 0 0 5px black;
 }
 
+.container{
+    display:flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+}
+
 .todos{
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-    flex-wrap: wrap;
+    width: 47.5%;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #bccad6;
+    border-radius: 5px;
+   
+}
+
+.todos__heading{
+    font-size: 30px;
+    color:whitesmoke;
+
 }
 
 .todos__single{
