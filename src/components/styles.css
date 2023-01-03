@@ -83,11 +83,16 @@ HEX: #f1e3dd */
 
 .todos__single{
     display: flex;
-    width: 29.5%;
+   /* width: 29.5%; */
     border-radius: 5px;
     padding: 20px;
     margin-top: 15px;
     background-color: #f1e3dd;
+    transition: 0.2s;
+}
+.todos__single:hover{
+    box-shadow: 0 0 5px bl;
+    transform: scale(1.03);
 }
 
 .todos__single--text{
