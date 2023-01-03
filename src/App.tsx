@@ -9,7 +9,7 @@ import { Todo } from './model';
 const  App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos,setTodos] = useState<Todo[]>([]);
-  const [completedTodo,setcompletedTodo] = useState<Todo[]>([]);
+  const [completedTodos,setcompletedTodos] = useState<Todo[]>([]);
   
 
   const handleAdd =(e: React.FormEvent) =>{
@@ -30,13 +30,10 @@ const  App: React.FC = () => {
       <InputFeild todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
       <TodoList  
             todos={todos} 
-            setTodos={setTodos}/>
-            completedTodos = {completedTodos}
+            setTodos={setTodos}
+            completedTodos = { completedTodos}
             setcompletedTodos ={setcompletedTodos}
-     
-      {/* {todos.map((t) =>(
-         <li>{t.todo}</li>
-       ))} */}
+       />
    </div>
    ); 
 };
