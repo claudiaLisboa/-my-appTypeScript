@@ -7,12 +7,13 @@ import './styles.css';
 import TodoList from './TodoList';
 
 type Props ={
+    index: number;
     todo: Todo,
     todos: Todo[],
     setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 }
 
-    const SingleTodo = ({todo, todos, setTodos}: Props) => {
+    const SingleTodo = ({index, todo, todos, setTodos}: Props) => {
     const[edit, setEdit] = useState<boolean>(false);
     const[editTodo, seteditTodo] = useState<string>(todo.todo);
 
