@@ -15,7 +15,7 @@
 
 <img width="655" alt="console-task7" src="https://user-images.githubusercontent.com/21189063/210480619-78bd33c9-528f-4087-9ba8-5f9adae593cc.png">
 
-############  
+#########################################
 
 ### Content viewed with this project :
 
@@ -44,6 +44,7 @@
 - Draggable Tag
 - onDragEnd Logic
 - Drag and Drop Styling
+
 **Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>**
 
 - // ERROR : Invariant failed: Cannot find droppable entry with id [TodosList]
@@ -51,7 +52,7 @@
 - // https://medium.com/@wbern/getting-react-18s-strict-mode-to-work-with-react-beautiful-dnd-47bc909348e4
 - // Remove <React.StrictMode> </React.StrictMode> tag from Index.tsx file 
 
-################## 
+######################################## 
 
 In the project directory, you can run:
 
