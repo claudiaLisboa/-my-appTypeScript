@@ -78,7 +78,7 @@ HEX: #f1e3dd */
 
 
 .dragactive {
-    background-color: rgb(0, 221, 236);
+    background-color: #667292;
   }
   
   .dragcomplete {
