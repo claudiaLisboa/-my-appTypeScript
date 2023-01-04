@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# Getting SMART TASK using TypeScript and React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img width="779" alt="task1" src="https://user-images.githubusercontent.com/21189063/210480254-540fa55e-8ea5-4199-8a74-0c038ac85889.png">
+
+<img width="784" alt="task2" src="https://user-images.githubusercontent.com/21189063/210480263-16aab714-087a-472f-8722-04ff2e416110.png">
+
+<img width="778" alt="task3" src="https://user-images.githubusercontent.com/21189063/210480278-6a9c2e86-16e6-4f88-8d44-6213868c16d9.png">
+
+<img width="774" alt="task4" src="https://user-images.githubusercontent.com/21189063/210480293-f01b4bd0-cc2c-4a17-892b-ddc8706f13e0.png">
+
+<img width="769" alt="task5" src="https://user-images.githubusercontent.com/21189063/210480325-a8b9eea2-7b55-47bb-96fb-e2beefee84ad.png">
+
+
+###### 
+
 
 In the project directory, you can run:
 
