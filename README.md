@@ -17,7 +17,7 @@
 
 #########################################
 
-### Content viewed with this project :
+### `Content viewed with this project :`
 
 
 - Basic Types in Typescript
@@ -45,7 +45,7 @@
 - onDragEnd Logic
 - Drag and Drop Styling
 
-**Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>**
+### `**Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>**`
 
 - // ERROR : Invariant failed: Cannot find droppable entry with id [TodosList]
 - // https://github.com/atlassian/react-beautiful-dnd/issues/2396
