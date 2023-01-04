@@ -1,5 +1,5 @@
 //rafce  - ES7 React/Redux/GraphQl/React-Native (extension)
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./styles.css";
 
 interface props {

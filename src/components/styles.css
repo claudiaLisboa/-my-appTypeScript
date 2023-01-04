@@ -47,6 +47,7 @@ HEX: #f1e3dd */
 
 }
 
+
 .input__submit:hover{
     background-color: #8d9db6;
 }
@@ -130,9 +131,7 @@ HEX: #f1e3dd */
     cursor: pointer;
 }
 
-.remove{
-    background-color: rgb(235,103,80);
-}
+
 
 @media (max-width: 1100px) {
     .todos{
