@@ -11,6 +11,9 @@
 
 <img width="769" alt="task5" src="https://user-images.githubusercontent.com/21189063/210480325-a8b9eea2-7b55-47bb-96fb-e2beefee84ad.png">
 
+<img width="759" alt="task6" src="https://user-images.githubusercontent.com/21189063/210480581-8b9f2992-2b7a-4723-b1f2-461764b87b4c.png">
+
+<img width="655" alt="console-task7" src="https://user-images.githubusercontent.com/21189063/210480619-78bd33c9-528f-4087-9ba8-5f9adae593cc.png">
 
 ###### 
 
