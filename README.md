@@ -20,36 +20,36 @@
 ### Content viewed with this project :
 
 
-Basic Types in Typescript
-bject Type
-Optional Field in Objects
-Array of Object Type
-Union Type
-Function Types
-Functional Component type
-Creating Input UI
-useState Hook with Typescript
-PropTypes - Passing props to component
-Reusable todo interface
-Passing function as props
-Event Type in Typescript
-Create Todo Logic
-useRef Hook with Typescript
-TodoList Component
-Passing props to SingleTodo
-SingleTodo Component
-Todo Complete Functionality
-Bug Fix
-Droppable Tag
-Draggable Tag
-onDragEnd Logic
-Drag and Drop Styling
+- Basic Types in Typescript
+- bject Type
+- Optional Field in Objects
+- Array of Object Type
+- Union Type
+- Function Types
+- Functional Component type
+- Creating Input UI
+- useState Hook with Typescript
+- PropTypes - Passing props to component
+- Reusable todo interface
+- Passing function as props
+- Event Type in Typescript
+- Create Todo Logic
+- useRef Hook with Typescript
+- TodoList Component
+- Passing props to SingleTodo
+- SingleTodo Component
+- Todo Complete Functionality
+- Bug Fix
+- Droppable Tag
+- Draggable Tag
+- onDragEnd Logic
+- Drag and Drop Styling
 **Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>**
 
-// ERROR : Invariant failed: Cannot find droppable entry with id [TodosList]
-// https://github.com/atlassian/react-beautiful-dnd/issues/2396
-// https://medium.com/@wbern/getting-react-18s-strict-mode-to-work-with-react-beautiful-dnd-47bc909348e4
-// Remove <React.StrictMode> </React.StrictMode> tag from Index.tsx file 
+- // ERROR : Invariant failed: Cannot find droppable entry with id [TodosList]
+- // https://github.com/atlassian/react-beautiful-dnd/issues/2396
+- // https://medium.com/@wbern/getting-react-18s-strict-mode-to-work-with-react-beautiful-dnd-47bc909348e4
+- // Remove <React.StrictMode> </React.StrictMode> tag from Index.tsx file 
 
 ################## 
 
