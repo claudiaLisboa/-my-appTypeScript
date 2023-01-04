@@ -1,4 +1,4 @@
-# Getting SMART TASK using TypeScript and React App
+# `Getting SMART TASK using TypeScript and React App`
 
 
 <img width="779" alt="task1" src="https://user-images.githubusercontent.com/21189063/210480254-540fa55e-8ea5-4199-8a74-0c038ac85889.png">
@@ -45,7 +45,7 @@
 - onDragEnd Logic
 - Drag and Drop Styling
 
-### `**Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>**`
+### `***Bug Fix - Droppable Tag -  not compatible with <React.StrictMode>***`
 
 - // ERROR : Invariant failed: Cannot find droppable entry with id [TodosList]
 - // https://github.com/atlassian/react-beautiful-dnd/issues/2396
